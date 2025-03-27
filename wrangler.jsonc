@@ -1,0 +1,5 @@
+{
+    "name": "adm-router",
+    "compatibility_date": "2025-03-27",
+    "main": "worker.js"
+}
