@@ -4,7 +4,6 @@ export default {
         const fpath = url.pathname.slice(1);
 
         const routes = {
-            "":          "https://docs.admsoftware.org/meta/router",
             "git":       `https://github.com/administer-org/${fpath.replace(/^git\//, '')}`,
             "docs":      "https://docs.admsoftware.org",
             "blog":      "https://blog.admsoftware.org",
