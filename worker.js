@@ -9,7 +9,8 @@ export default {
             "blog":      "https://blog.admsoftware.org",
             "roblox":    "https://create.roblox.com/store/asset/127698208806211/Administer",
             "discord":   "https://discord.gg/3Q8xkcBT3M",
-            "discourse": "https://devforum.roblox.com/t/179989"
+            "discourse": "https://devforum.roblox.com/t/179989",
+            "bluesky":   "https://bsky.app/profile/admsoftware.org"
         };
 
         for (const [route, path] of Object.entries(routes)) {
