@@ -23,5 +23,5 @@ export default {
             status: 404,
             headers: { "Content-Type": "application/json" }
         });
-    }
+    };
 };
