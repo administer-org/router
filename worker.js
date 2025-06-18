@@ -8,7 +8,7 @@ export default {
             "docs":      "https://docs.admsoftware.org",
             "blog":      "https://blog.admsoftware.org",
             "roblox":    "https://create.roblox.com/store/asset/127698208806211/Administer",
-            "discord":   "https://discord.gg/3Q8xkcBT3M",
+            "discord":   "https://discord.gg/Ku6mgEqna2",
             "discourse": "https://devforum.roblox.com/t/179989",
             "bluesky":   "https://bsky.app/profile/admsoftware.org"
         };
@@ -23,5 +23,5 @@ export default {
             status: 404,
             headers: { "Content-Type": "application/json" }
         });
-    };
+    }
 };
