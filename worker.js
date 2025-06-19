@@ -19,7 +19,7 @@ export default {
             }
         }
 
-        return new Response(JSON.stringify({ error: "That path isn't a valid shortlink." }), {
+        return new Response(JSON.stringify({ error: "That isn't a valid shortlink. It must be /git/[REPO], /docs, /blog, /roblox, /discord, /discourse, or /bluesky." }), {
             status: 404,
             headers: { "Content-Type": "application/json" }
         });
