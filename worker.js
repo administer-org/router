@@ -9,8 +9,9 @@ export default {
             "blog":      "https://blog.admsoftware.org",
             "roblox":    "https://create.roblox.com/store/asset/127698208806211/Administer",
             "discord":   "https://discord.gg/Ku6mgEqna2",
-            "discourse": "https://devforum.roblox.com/t/179989",
-            "bluesky":   "https://bsky.app/profile/admsoftware.org"
+            "devforum":  "https://devforum.roblox.com/t/179989",
+            "bluesky":   "https://bsky.app/profile/admsoftware.org",
+            "translate": "https://translate.admsoftware.or"
         };
 
         for (const [route, path] of Object.entries(routes)) {
@@ -19,7 +20,7 @@ export default {
             }
         }
 
-        return new Response(JSON.stringify({ error: "That isn't a valid shortlink. It must be /git/[REPO], /docs, /blog, /roblox, /discord, /discourse, or /bluesky." }), {
+        return new Response(JSON.stringify({ error: "That isn't a valid shortlink. Currently valid shortlinks include /git/[REPO], /docs, /blog, /roblox, /discord, /devforum, /translate, or /bluesky." }), {
             status: 404,
             headers: { "Content-Type": "application/json" }
         });
