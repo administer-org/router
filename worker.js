@@ -9,7 +9,7 @@ export default {
             "blog":      "https://blog.admsoftware.org",
             "roblox":    "https://create.roblox.com/store/asset/127698208806211/Administer",
             "discord":   "https://discord.gg/Ku6mgEqna2",
-            "devforum":  "https://devforum.roblox.com/t/179989",
+            "devforum":  "https://devforum.roblox.com/t/3817572",
             "bluesky":   "https://bsky.app/profile/admsoftware.org",
             "translate": "https://translate.admsoftware.org"
         };
