@@ -11,7 +11,7 @@ export default {
             "discord":   "https://discord.gg/Ku6mgEqna2",
             "devforum":  "https://devforum.roblox.com/t/179989",
             "bluesky":   "https://bsky.app/profile/admsoftware.org",
-            "translate": "https://translate.admsoftware.or"
+            "translate": "https://translate.admsoftware.org"
         };
 
         for (const [route, path] of Object.entries(routes)) {
